@@ -3,7 +3,7 @@
 ## Flattens the contents of multiple lines between a record seperator  into one line
 
 ```
-./recordmaker_mac
+./recordmaker
 Usage: ./recordmaker_mac -file <inputFile> -rs <recordSeparator> [-output <outputFile>] [-ls <lineSeparator>] [-rstop <recordStop>]
 
 Options:
