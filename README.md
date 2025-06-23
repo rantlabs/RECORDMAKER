@@ -59,4 +59,11 @@ interface GigabitEthernet1/0/2  switchport access vlan 999  switchport mode acce
 interface GigabitEthernet1/0/3  switchport access vlan 999  switchport mode access  switchport voice vlan 1999  spanning-tree portfast 
 ```
 
+#### Command ./recordmaker -file file.txt -rs interface -ls "," -rstop !
+```
+interface GigabitEthernet1/0/1, switchport access vlan 999, switchport mode access, switchport voice vlan 1999, spanning-tree portfast,
+interface GigabitEthernet1/0/2, switchport access vlan 999, switchport mode access, switchport voice vlan 1999, spanning-tree portfast,
+interface GigabitEthernet1/0/3, switchport access vlan 999, switchport mode access, switchport voice vlan 1999, spanning-tree portfast,
+```
+
 
