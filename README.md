@@ -52,7 +52,7 @@ interface GigabitEthernet1/0/3
  switchport voice vlan 1999
  spanning-tree portfast
 ```
-#### Command ./recordmaker_mac -file file.txt -rs interface -rstop !
+#### Command ./recordmaker -file file.txt -rs interface -rstop !
 ```
 interface GigabitEthernet1/0/1  switchport access vlan 999  switchport mode access  switchport voice vlan 1999  spanning-tree portfast 
 interface GigabitEthernet1/0/2  switchport access vlan 999  switchport mode access  switchport voice vlan 1999  spanning-tree portfast 
